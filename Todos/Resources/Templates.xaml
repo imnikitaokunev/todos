@@ -37,11 +37,11 @@
     </DataTemplate>
 
     <DataTemplate DataType="{x:Type viewModels:AddTodoViewModel}">
-        <views:AddTodo />
+        <views:AddEditTodoView />
     </DataTemplate>
 
     <DataTemplate DataType="{x:Type viewModels:EditTodoViewModel}">
-        <views:AddTodo />
+        <views:AddEditTodoView />
     </DataTemplate>
 
 </ResourceDictionary>

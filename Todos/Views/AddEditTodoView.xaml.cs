@@ -3,9 +3,9 @@
     /// <summary>
     ///     Interaction logic for AddTodo.xaml
     /// </summary>
-    public partial class AddTodo
+    public partial class AddEditTodoView
     {
-        public AddTodo()
+        public AddEditTodoView()
         {
             InitializeComponent();
         }
