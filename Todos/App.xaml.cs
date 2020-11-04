@@ -16,7 +16,6 @@ namespace Todos
             var builder = new ContainerBuilder();
 
             builder.RegisterType<DbContext>().AsSelf().SingleInstance();
-            builder.RegisterType<SettingsService>().As<ISettingsService>();
             builder.RegisterType<TodoRepository>().As<ITodoRepository>();
             builder.RegisterType<TodoService>().As<ITodoService>();
 

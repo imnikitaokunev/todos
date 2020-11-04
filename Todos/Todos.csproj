@@ -90,16 +90,11 @@
     <Compile Include="Commands\Command.cs" />
     <Compile Include="DbContext.cs" />
     <Compile Include="Extensions\GenericExtensions.cs" />
-    <Compile Include="Extensions\TextboxExtensions.cs" />
     <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\ITodoRepository.cs" />
-    <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Repositories\TodoRepository.cs" />
     <Compile Include="SearchChangedEventArgs.cs" />
-    <Compile Include="Services\ISettingsService.cs" />
     <Compile Include="Services\ITodoService.cs" />
-    <Compile Include="Services\SettingsService.cs" />
     <Compile Include="Services\TodoService.cs" />
     <Compile Include="ViewModels\AddTodoViewModel.cs" />
     <Compile Include="ViewModels\EditTodoViewModel.cs" />

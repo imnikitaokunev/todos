@@ -22,14 +22,5 @@ namespace Todos.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://jsonplaceholder.typicode.com/todos")]
-        public string TodosEndpointUrl {
-            get {
-                return ((string)(this["TodosEndpointUrl"]));
-            }
-        }
     }
 }
